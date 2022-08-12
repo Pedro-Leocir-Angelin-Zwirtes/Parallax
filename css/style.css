@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    font-size: 15px;
+    padding: 0.5em;
+    color: #b0b5c2;
+    border: none;
+    border-radius: 5px;
+    background-color: #474F59;
+}
+
+button:hover {
+    background-color: #2a2c2f;
+}
+
+.espaco {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../medias/fundo1.png");
+}
+
+.container1::after{
+    z-index: 8;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, rgb(0,0,0,0) 0, rgb(0,0,0,0) 70%, #03060D 100%);
+}
+
+.container2 {
+    background-color: #03060D;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+}
+
+.titulo {
+    color: transparent;
+    -webkit-text-stroke: 1px #b0b5c2;
+    font-size: 35px;
+    line-height: 1em;
+    text-align: center;
+}
+
+.bloco1 {
+    line-height: 1em;
+    margin-bottom: 7em;
+}
+
+.bloco1 h1 {
+    margin-top: 1em;
+    font-size: 70px;
+    color: #b0b5c2;
+}
+
+.bloco1 h2 {
+    color: #b0b5c2;
+    font-size: 90px;
+}
+
+.bloco2 {
+    color: #b0b5c2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5em;
+    text-align: justify;
+}
+
+.bloco2 p {
+    font-size: 20px;
+
+}
+
+.bloco3 {
+    color: #b0b5c2;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5em;
+    text-align: justify;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../medias/fundo1.png");
+}
+
+.container3::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to top, rgb(0,0,0,0) 0, rgb(0,0,0,0) 70%, #03060D 100%);
+}
+
+.infos {
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.infos h2 {
+    font-size: 30px;
+}
+
+.infos a {
+    color: #b0b5c2;
+    text-decoration: none;
+}
+
+.infos button {
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 1em 3em;
+}
+
+.footer {
+    color: #b0b5c2;
+    padding: 1em;
+    font-size: 15px;
+    text-align: center;
+    background-color: #01040b;
+}
