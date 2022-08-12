@@ -35,7 +35,7 @@ button:hover {
     background-position: 100% 100%;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("../medias/fundo1.png");
+    background-image: url("../medias/fundo1.jpg");
 }
 
 .container1::after{
@@ -111,7 +111,7 @@ button:hover {
     background-position: 100% 100%;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("../medias/fundo1.png");
+    background-image: url("../medias/fundo1.jpg");
 }
 
 .container3::after{
